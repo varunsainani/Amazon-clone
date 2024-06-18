@@ -7,10 +7,12 @@
 .navbar {
     background-color: #242222;
     color: white;
-    display: flex;
     padding: 0;
-    height: 4rem;
-    z-index: 999;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    justify-items: left;
+    flex-wrap: wrap;
 }
 
 
@@ -19,8 +21,9 @@
 .logo {
     padding: 0;
     margin: 0;
-    height: 58px;
+    height: 46px;
     border: 1px solid transparent;
+    width: 10vw;
 }
 
 .logo:hover {
@@ -32,12 +35,11 @@
 /* box 2  */
 
 .navlocation {
-    height: 40px;
+    height: 35px;
     position: relative;
-    top: 11px;
+    top: 1px;
     margin: 0;
     font-size: 16px;
-    left: 2px;
     border: 1px solid #242222;
     padding: 4px;
 }
@@ -71,47 +73,41 @@
 /* box 3 */
 
 .navsearch {
-    left: 12px;
-    top: 10px;
     padding: 0;
     display: flex;
     align-items: center;
     justify-items: center;
-    margin-left: 20px;
-}
-
-.search-area {
-    width: 1050px;
-    height: 38px;
-    margin: 0px;
-    padding: 0;
-}
-
-#search {
-    padding: 12px;
-}
-
-.icon-2 {
-    height: 13px;
-    left: 55.9rem;
-    font-size: 15px;
-    border: 2px solid #f2b75e;
-    padding: 12px;
-    margin: 0;
-    background-color: #f2b75e;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    color: #000000;
 }
 
 .select-1 {
     border: none;
-    height: 41px;
-    left: 5px;
+    height: 37.4px;
     background-color: rgb(226, 226, 226);
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     color: rgb(54, 54, 54);
+    margin-top: 1px;
+}
+
+.search-area {
+    width: 50vw;
+    height: 34px;
+    margin-top: 1px;
+    padding: 0;
+}
+
+#search {
+    padding: 8px;
+}
+
+.icon-2 {
+    font-size: 15px;
+    padding: 12px;
+    margin-top: 1.2px;
+    background-color: #f2b75e;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #000000;
 }
 
 .select-1:hover {
@@ -130,11 +126,11 @@
 
 .flag {
     height: 20px;
-    margin: 18px 0px 0px 10px;
+    margin: 10px 0px 0px 0px;
     display: flex;
     align-items: center;
     border: 1px solid transparent;
-    padding: 10px 5px 10px 5px
+    padding: 8px 5px 8px 5px
 }
 
 .flag:hover {
@@ -160,11 +156,11 @@
 /* box 5 */
 
 .navsign {
-    margin: 10px 0px 0px 10px;
+    margin: 0px;
     border: 1px solid transparent;
-    padding: 2px;
+    padding: 0px;
     padding-top: 10px;
-    height: 40px;
+    height: 36px;
     width: 140px;
 }
 
@@ -192,10 +188,10 @@ p {
 /* box 6 */
 
 .navreturn {
-    margin: 10px 0px 0px 5px;
+    margin: 0px;
     border: 1px solid #242222;
-    height: 30px;
-    padding: 10px 15px 10px 13px;
+    height: 25px;
+    padding: 10px 10px 11px 5px;
 }
 
 .navreturn:hover {
@@ -218,13 +214,12 @@ p {
 /* box 7 */
 
 .navcart {
-    margin: 5px 0px 0px 5px;
+    margin: 0px;
     display: flex;
     text-align: center;
     border: 1px solid transparent;
-    height: 35px;
-    padding: 8px;
-    padding-top: 15px;
+    height: 33px;
+    padding: 10px 5px 3px 5px;
 }
 
 .navcart:hover {
@@ -315,7 +310,7 @@ p {
     background-image: url("images/amzon2.jpg");
     background-size: cover;
     height: 250px;
-    width: 1500px;
+    width: 83vw;
 }
 
 .back-img:hover {
@@ -334,7 +329,7 @@ p {
 .box {
     border: 1px solid transparent;
     height: 395px;
-    width: 350px;
+    width: 19.5vw;
     background-color: #ffffff;
 }
 
@@ -356,7 +351,7 @@ h3 {
 }
 
 .box-1-img {
-    width: 170px;
+    width: 9.5vw;
     height: 120px;
 }
 
@@ -373,7 +368,7 @@ h3 {
 
 .column-1-p2 {
     color: black;
-    margin-left: 7.3rem;
+    margin-left: 5vw;
     font-size: 12px;
 }
 
@@ -396,7 +391,7 @@ h3 {
 
 .column-2-p2 {
     color: black;
-    margin-left: 5.9rem;
+    margin-left: 3vw;
     font-size: 12px;
 }
 
@@ -432,13 +427,13 @@ h3 {
 }
 
 .box-2-img1 {
-    width: 155px;
+    width: 8.5vw;
     height: 118px;
     margin-left: 13px;
 }
 
 .box-2-img2 {
-    width: 155px;
+    width: 8.5vw;
     height: 118px;
     margin-left: 13px;
 }
@@ -452,7 +447,7 @@ h3 {
 
 .box-2-column-1-p2 {
     color: black;
-    margin-left: 4.5rem;
+    margin-left: 2.8vw;
     font-size: 12px;
     padding-top: 2px;
 }
@@ -477,7 +472,7 @@ h3 {
 
 .box-2-column-2-p2 {
     color: black;
-    margin-left: 3.7rem;
+    margin-left: 1.9vw;
     font-size: 12px;
     padding-top: 2px;
 }
@@ -496,13 +491,13 @@ h3 {
 }
 
 .box-3-img1 {
-    width: 155px;
+    width: 8.5vw;
     height: 118px;
     margin-left: 13px;
 }
 
 .box-3-img2 {
-    width: 155px;
+    width: 8.5vw;
     height: 118px;
     margin-left: 13px;
 }
@@ -516,7 +511,7 @@ h3 {
 
 .box-3-column-1-p2 {
     color: black;
-    margin-left: 8rem;
+    margin-left: 6.6vw;
     font-size: 12px;
     padding-top: 2px;
 }
@@ -536,7 +531,7 @@ h3 {
 
 .box-3-column-2-p2 {
     color: black;
-    margin-left: 8rem;
+    margin-left: 6.4vw;
     font-size: 12px;
     padding-top: 2px;
 }
@@ -545,7 +540,7 @@ h3 {
 /* box 4 */
 
 .pc-img {
-    width: 320px;
+    width: 17.7vw;
     height: 307px;
     margin-top: 10px;
     margin-left: 13px;
@@ -564,4 +559,28 @@ h3 {
 .box-4-link:hover {
     cursor: pointer;
     color: rgb(190, 40, 40);
+}
+
+
+/* content column-2 */
+
+
+/* box-5 */
+
+.content-column-2 {
+    background-color: #ffffff;
+    width: 81.8vw;
+    height: 280px;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+.content-column-2-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-5-img {
+    width: 150px;
+    height: 260px;
 }
