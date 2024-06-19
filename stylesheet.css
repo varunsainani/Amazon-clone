@@ -408,13 +408,9 @@ h3 {
     font-size: 13px;
 }
 
-.link:hover {
-    cursor: pointer;
-    color: rgb(190, 40, 40);
-}
-
 a:hover {
     cursor: pointer;
+    color: rgb(190, 40, 40);
 }
 
 
