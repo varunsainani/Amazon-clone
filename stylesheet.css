@@ -1080,12 +1080,13 @@ a:hover {
 }
 
 .box-15-link {
+    display: flex;
+    align-items: end;
     font-size: small;
-    margin: 0px 0px 0px 13px;
-    position: relative;
-    bottom: -14px;
     color: #007185;
     font-size: 13px;
+    margin-left: 13px;
+    margin-top: 15px;
 }
 
 
@@ -1109,4 +1110,67 @@ a:hover {
 .box-16-img {
     width: 7vw;
     height: 20vh;
+}
+
+
+/* signin area */
+
+.foot-signin {
+    background-color: #ffffff;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-border {
+    border: 1px solid #bcbaba;
+    width: 100%;
+    height: 70%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signin-area {
+    text-align: center;
+}
+
+.signin-p1 {
+    color: black;
+    font-weight: 540;
+}
+
+.button-signin {
+    margin: 3px 0px 3px 0px;
+}
+
+button {
+    padding: 8px 5.7rem 8px 5.7rem;
+    font-weight: 700;
+    text-shadow: 0 1px 0 #ffe093;
+    background-color: #ffbe19;
+    border: 1px solid #b98400;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.signin-customer {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.signin-p2 {
+    color: black;
+    font-size: 13px;
+}
+
+.signin-link {
+    font-size: 13px;
 }
